@@ -1,0 +1,10 @@
+<table tableResize [fixed]="isFixed">
+    <tr>
+        <th [style.width]="header?.width" *ngFor="let header of headers">{{header.title}}</th>
+    </tr>
+    <tr *ngFor="let row of data">
+        <td *ngFor="let header of headers">
+            {{row[header.key]}}
+        </td>
+    </tr>
+</table>

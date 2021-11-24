@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+}
+
+.toggler {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+button {
+  border: none;
+    padding: 10px 20px;
+    background-color: #bcbaba;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.table-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.resize-handle {
+  width: 10px !important;
+}

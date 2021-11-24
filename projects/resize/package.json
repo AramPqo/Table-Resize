@@ -1,0 +1,29 @@
+{
+  "name": "ngpq-table-resize",
+  "version": "0.0.1",
+  "description": "This library for resizing table cells",
+  "author": "Aram Petrosyan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AramPqo/Table-Resizer"
+  },
+  "homepage": "https://arampqo.github.io/Table-Resizer/",
+  "keywords": [
+    "angular",
+    "table",
+    "dataTable",
+    "tableResize",
+    "resize",
+    "ngTableResize",
+    "angularTableResize",
+    "resizeTable"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^12.2.0",
+    "@angular/core": "^12.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}

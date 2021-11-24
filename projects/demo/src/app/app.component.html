@@ -1,0 +1,14 @@
+<h1>
+  {{isFixed ? 'Fixed' : 'Basic'}}
+</h1>
+
+<div class="toggler">
+  <button (click)=toggleMode()>
+      {{isFixed ? 'Basic' : 'Fixed'}}
+  </button>
+</div>
+
+<div class="table-container">
+  <router-outlet></router-outlet>
+</div>
+
