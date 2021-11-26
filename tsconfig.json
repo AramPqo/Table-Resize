@@ -14,6 +14,12 @@
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
+    "paths": {
+      "resize": [
+        "dist/resize/resize",
+        "dist/resize"
+      ]
+    },
     "importHelpers": true,
     "target": "es2017",
     "module": "es2020",

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ResizerModule } from 'projects/resize/src/lib/resizer.module';
+import { ResizeModule } from 'ngpq-table-resize';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -19,7 +19,7 @@ import { TableComponent } from './table/table.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ResizerModule
+    ResizeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

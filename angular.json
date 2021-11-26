@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "resize": {
+    "resizePro": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "resize:build:production"
+              "browserTarget": "resizePro:build:production"
             },
             "development": {
-              "browserTarget": "resize:build:development"
+              "browserTarget": "resizePro:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "resize:build"
+            "browserTarget": "resizePro:build"
           }
         },
         "test": {
@@ -98,7 +98,38 @@
           }
         }
       }
+    },
+    "resize": {
+      "projectType": "library",
+      "root": "projects/resize",
+      "sourceRoot": "projects/resize/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/resize/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/resize/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/resize/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/resize/src/test.ts",
+            "tsConfig": "projects/resize/tsconfig.spec.json",
+            "karmaConfig": "projects/resize/karma.conf.js"
+          }
+        }
+      }
     }
   },
-  "defaultProject": "resize"
+  "defaultProject": "resizePro"
 }
