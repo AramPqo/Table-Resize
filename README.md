@@ -42,7 +42,7 @@ fixed: Default `false`
 ![Alt Text](https://s1.gifyu.com/images/Basic.gif)
 
 #### True
-if `true` Columns change independently of each other
+If `true` Columns change independently of each other
 
 ![Alt Text](https://s5.gifyu.com/images/fixed.gif)
 

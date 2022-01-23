@@ -1,8 +1,8 @@
 export const headers = [
-    { width: '10%', key: 'id', title: 'ID' },
-    { width: '30%', key: 'title', title: 'Title' },
-    { width: '50%', key: 'description', title: 'Description' },
-    { width: '10%', key: 'userId', title: 'User ID' },
+    { key: 'id', title: 'ID' },
+    { key: 'title', title: 'Title' },
+    { key: 'description', title: 'Description' },
+    { key: 'userId', title: 'User ID' },
 ];
 
 export const data = [
