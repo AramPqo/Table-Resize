@@ -1,8 +1,8 @@
 export const headers = [
-    { key: 'id', title: 'ID' },
+    { key: 'id', title: 'ID', width: '45px' },
     { key: 'title', title: 'Title' },
     { key: 'description', title: 'Description' },
-    { key: 'userId', title: 'User ID' },
+    { key: 'userId', title: 'User ID', width: '45px' },
 ];
 
 export const data = [
@@ -10,7 +10,7 @@ export const data = [
         userId: 1,
         id: 1,
         title: 'delectus aut autem',
-        description: 'tas ir teksta salikums, kuru izmanto poligrāfijā un maketēšanas darbos. Lorem Ipsum ir kļuvis par vispārpieņemtu teksta aizvietotāju kopš 16.'
+        description: 'tas ir teksta salikums, kuru izmanto poligrāfijā un maketēšanas darbos.'
     },
     {
         userId: 1,
@@ -22,25 +22,25 @@ export const data = [
         userId: 1,
         id: 3,
         title: 'fugiat veniam minus',
-        description: 'Tā pirmsākums meklējams 45.gadā p.m.ē., vienā no klasiskās latīņu literatūras teksta fragmentiem, apstiprinot tā vairāk kā divus tūkstošus gadu seno pagātni. Richard McClintock, latīņu valodas profesors no Hampden-Sydney koledžas, Virdžīnijā, izvēlējās'
+        description: 'Tā pirmsākums meklējams 45.gadā p.m.ē.'
     },
     {
         userId: 1,
         id: 4,
         title: 'et porro tempora',
-        description: 'Šis traktāts par ētikas teoriju bija ļoti populārs Renesanses periodā.'
+        description: 'Šis traktāts par ētikas teoriju.'
     },
     {
         userId: 1,
         id: 5,
         title: 'laboriosam mollitia et enim quasi adipisci quia provident illum',
-        description: ' var iepazīties ar turpinājumā pievienoto klasisko Lorem Ipsum teksta fragmentu,'
+        description: 'var iepazīties ar turpinājumā pievienoto klasisko Lorem Ipsum teksta fragmentu,'
     },
     {
         userId: 1,
         id: 6,
         title: 'qui ullam ratione quibusdam voluptatem quia omnis',
-        description: 'r daudz variantu ar Lorem Ipsum teksta fragmentiem, bet lielākajā daļā no tiem ir veikti dažāda veida labojumi, piemēram, humoristiski iespraudumi vai nejauši vārdi, kas pat aptuveni nav līdzīgi latīņu valodai.'
+        description: 'r daudz variantu ar Lorem Ipsum teksta fragmentiem, bet lielākajā daļā no tiem ir veikti dažāda.'
     },
     {
         userId: 1,
@@ -58,7 +58,7 @@ export const data = [
         userId: 1,
         id: 9,
         title: 'molestiae perspiciatis ipsa',
-        description: 'Tā pirmsākums meklējams 45.gadā p.m.ē., vienā no klasiskās latīņu literatūras teksta fragmentiem, apstiprinot tā vairāk kā divus tūkstošus gadu seno pagātni.'
+        description: 'Tā pirmsākums meklējams 45.gadā p.m.ē., vienā no klasiskās latīņu.'
     },
     {
         userId: 2,
@@ -77,29 +77,5 @@ export const data = [
         id: 12,
         title: 'ipsa repellendus fugit nisi',
         description: 'Aldus PageMaker, kuras šablonu paraugos ir izmantots Lorem Ipsum teksts'
-    },
-    {
-        userId: 1,
-        id: 13,
-        title: 'et doloremque nulla',
-        description: 'Daudzas maketēšanas un web lapu rediģēšanas programmas mūsdienās'
-    },
-    {
-        userId: 4,
-        id: 14,
-        title: 'repellendus sunt dolores architecto voluptatum',
-        description: 'izmanto Lorem Ipsum kā standarta parauga tekstu un, izmantojot interneta meklēšanas programmās atslēgas vārdus'
-    },
-    {
-        userId: 1,
-        id: 15,
-        title: 'ab voluptatum amet voluptas',
-        description: 'Ir daudz variantu ar Lorem Ipsum teksta fragmentiem, bet lielākajā daļā no tiem ir veikti dažāda veida labojumi, piemēram, humoristiski iespraudumi vai nejauši vārdi'
-    },
-    {
-        userId: 2,
-        id: 16,
-        title: 'accusamus eos facilis sint et aut voluptatem',
-        description: 'kas pat aptuveni nav līdzīgi latīņu valodai. Ja jums ir nepieciešams Lorem Ipsum teksta fragments'
     }
 ];

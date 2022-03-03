@@ -15,9 +15,9 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "paths": {
-      "resize": [
-        "dist/resize/resize",
-        "dist/resize"
+      "ngpq-table-resize": [
+        "dist/ngpq-table-resize/resize",
+        "dist/ngpq-table-resize"
       ]
     },
     "importHelpers": true,

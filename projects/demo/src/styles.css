@@ -1,3 +1,12 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
 h1 {
   text-align: center;
 }
@@ -10,14 +19,14 @@ h1 {
 
 button {
   border: none;
-    padding: 10px 20px;
-    background-color: #bcbaba;
-    cursor: pointer;
-    border-radius: 3px;
+  padding: 10px 20px;
+  background-color: #bcbaba;
+  cursor: pointer;
+  border-radius: 3px;
 }
 
 .table-container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -40,16 +49,7 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
-
-body {
-  margin: 0;
-  overflow: hidden;
-}
 
 .resize-handle {
-  width: 10px !important;
+  width: 5px !important;
 }

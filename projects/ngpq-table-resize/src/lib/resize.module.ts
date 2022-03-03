@@ -9,4 +9,4 @@ import { ResizeDirective } from './resize.directive';
     ResizeDirective
   ]
 })
-export class ResizeModule { }
+export class NgPqTableResizeModule { }
