@@ -28,7 +28,7 @@ import { NgPqTableResizeModule } from 'ngpq-table-resize';
   ],
   imports: [
     BrowserModule,
-    ResizerModule
+    NgPqTableResizeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
