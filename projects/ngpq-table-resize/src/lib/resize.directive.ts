@@ -62,7 +62,7 @@ export class ResizeDirective implements AfterViewInit {
 
         for (let i = 0; i < tableCellArr.length; i++) {
             this.renderer.listen(this.lineCollection[i], 'mousedown', this.mouseDown);
-            this.renderer.setAttribute(this.lineCollection[i], 'tr-resize', `${i}`);
+            this.renderer.setAttribute(this.lineCollection[i], 'th-resize', `${i}`);
         }
     }
 
@@ -102,7 +102,7 @@ export class ResizeDirective implements AfterViewInit {
         this.listeners.push(listenerMove, listenerLeave, listenerUp);
 
         const resize = event.target;
-        this.index = parseInt(`${(resize as HTMLDivElement).getAttribute('tr-resize')}`);
+        this.index = parseInt(`${(resize as HTMLDivElement).getAttribute('th-resize')}`);
         this.th = this.thCollection[this.index];
         this.nextTh = this.thCollection[this.index + 1];
         this.dragStart = true;
