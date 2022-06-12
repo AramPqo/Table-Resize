@@ -6,6 +6,7 @@ import { Directive, ElementRef, Input, AfterViewInit, Renderer2 } from '@angular
 export class ResizeDirective implements AfterViewInit {
 
     @Input('fixed') isFixed = false;
+    @Input() disabled = false;
 
     table: HTMLTableElement;
     private thCollection: HTMLCollectionOf<HTMLTableCellElement>;
@@ -25,7 +26,9 @@ export class ResizeDirective implements AfterViewInit {
     ) { }
 
     ngAfterViewInit() {
-        this.create();
+        if (!this.disabled) {
+            this.create();
+        }
     }
 
     create() {

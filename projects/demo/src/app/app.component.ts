@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  disabled: boolean;
   isFixed = false;
 
   constructor(private router: Router) {

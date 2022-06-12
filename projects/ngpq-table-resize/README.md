@@ -20,7 +20,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
-import { NgPqTableResizeModule } from 'ngpq-table-resize';
+import { ResizeModule } from 'ngpq-table-resize';
 
 @NgModule({
   declarations: [
@@ -28,7 +28,7 @@ import { NgPqTableResizeModule } from 'ngpq-table-resize';
   ],
   imports: [
     BrowserModule,
-    NgPqTableResizeModule
+    ResizeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

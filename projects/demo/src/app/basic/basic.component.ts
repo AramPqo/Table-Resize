@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
   template: '<ngpq-table></ngpq-table>'
 })
 export class BasicComponent {
-
+  disabled = true;
 }

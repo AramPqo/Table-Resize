@@ -8,6 +8,7 @@ import { data, headers } from '../data';
 export class TableComponent implements OnInit {
 
   @Input('fixed') isFixed!: boolean;
+  @Input() disabled!: boolean;
 
   data: any;
   headers: any;
