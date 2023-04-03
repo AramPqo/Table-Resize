@@ -2,7 +2,7 @@
 
 ## Installation
 
-```sh
+```
 npm install ngpq-table-resize
 ```
 
@@ -39,12 +39,8 @@ export class AppModule { }
 ## Inputs
 fixed: Default `false`
 #### False
-![Alt Text](https://s1.gifyu.com/images/Basic.gif)
-
+If `false` changes its own and its neighbor column width
 #### True
-If `true` Columns change independently of each other
-
-![Alt Text](https://s5.gifyu.com/images/fixed.gif)
-
-## Class 
-the resizing-line has `resize-handle`, with which you can change styles
+If `true` columns change independently of each other
+## Class
+the resizing-line has `resize-handle` class name, with which you can change the styles

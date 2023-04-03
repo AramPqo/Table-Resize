@@ -9,6 +9,7 @@
 
 # dependencies
 /node_modules
+/projects/ngpq-table-resize/node_modules
 
 # profiling files
 chrome-profiler-events*.json
@@ -43,4 +44,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-/.angular/cache
+/.angular
